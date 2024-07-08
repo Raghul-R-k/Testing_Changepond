@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LifeCycleAnnotationsTest" project="JUnitTestingProject" tests="2" started="2" failures="0" errors="2" ignored="0">
+  <testsuite name="Local.LifeCycleAnnotationsTest" time="0.0" displayname="LifeCycleAnnotationsTest" uniqueid="[engine:junit-jupiter]/[class:Local.LifeCycleAnnotationsTest]">
+    <testcase name="testsquare" classname="Local.LifeCycleAnnotationsTest" time="0.0" displayname="testsquare()" uniqueid="[engine:junit-jupiter]/[class:Local.LifeCycleAnnotationsTest]/[method:testsquare()]">
+      <error>java.lang.NullPointerException: Cannot invoke "Local.LifeCycleAnnotation.square(int)" because "this.m" is null&#13;
+	at Local.LifeCycleAnnotationsTest.testsquare(LifeCycleAnnotationsTest.java:45)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testcube" classname="Local.LifeCycleAnnotationsTest" time="0.0" displayname="testcube()" uniqueid="[engine:junit-jupiter]/[class:Local.LifeCycleAnnotationsTest]/[method:testcube()]">
+      <error>java.lang.NullPointerException: Cannot invoke "Local.LifeCycleAnnotation.cube(int)" because "this.m" is null&#13;
+	at Local.LifeCycleAnnotationsTest.testcube(LifeCycleAnnotationsTest.java:52)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

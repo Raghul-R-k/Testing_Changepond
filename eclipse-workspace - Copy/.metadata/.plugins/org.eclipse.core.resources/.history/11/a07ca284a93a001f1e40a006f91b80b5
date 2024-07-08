@@ -1,0 +1,20 @@
+package com.apitesting;
+
+
+import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.*;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import io.restassured.response.Response;
+public class TestGETandPOSTRequest {
+	@Test
+	public void testGet3()
+	{
+		baseURI = "https://reqres.in/api";
+		given().get("/unknown").then().statusCode(200).body("data[1].id", equalTo(2)).log().all();
+		given().get("/unknown").then().statusCode(200).body("data[1].name", equalTo("fuchsia rose")).
+		body("data[1].id",equalTo(2)).log().all();
+	}
+}

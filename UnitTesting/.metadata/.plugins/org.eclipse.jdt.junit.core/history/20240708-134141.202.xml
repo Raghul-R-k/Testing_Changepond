@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LifeCycleAnnotationsTest" project="JUnitTestingProject" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="Local.LifeCycleAnnotationsTest" time="0.016" displayname="LifeCycleAnnotationsTest" uniqueid="[engine:junit-jupiter]/[class:Local.LifeCycleAnnotationsTest]">
+    <testcase name="testsquare" classname="Local.LifeCycleAnnotationsTest" time="0.015" displayname="testsquare()" uniqueid="[engine:junit-jupiter]/[class:Local.LifeCycleAnnotationsTest]/[method:testsquare()]"/>
+    <testcase name="testcube" classname="Local.LifeCycleAnnotationsTest" time="0.001" displayname="testcube()" uniqueid="[engine:junit-jupiter]/[class:Local.LifeCycleAnnotationsTest]/[method:testcube()]"/>
+  </testsuite>
+</testrun>

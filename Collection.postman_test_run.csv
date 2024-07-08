@@ -1,0 +1,220 @@
+{
+	"id": "1c3a8fe6-046c-4930-82b3-49db1690a80d",
+	"name": "Collection",
+	"timestamp": "2024-07-04T06:25:31.154Z",
+	"collection_id": "36735016-cbe4f440-5594-4aa6-bcfd-9859e3b27c57",
+	"folder_id": "36735016-94ad9ff1-c5e2-4140-8cf2-cf30f71f0927",
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-07-04T06:25:25.698Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "b5768bb2-2a2c-4868-b348-bec5f07ea841",
+			"name": "GETAbout",
+			"url": "https://vaigai.org/about.html",
+			"time": 113,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				113
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "74a89b60-6b59-4272-885e-40124e9e6969",
+			"name": "GETHomePage",
+			"url": "https://vaigai.org/index.html",
+			"time": 1565,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1565
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8725a6fa-bb68-422a-bf68-1c02f71c7452",
+			"name": "GETHostel",
+			"url": "https://vaigai.org/hostel.html",
+			"time": 401,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				401
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7ed08c50-fc07-490a-9c97-1505094d7a59",
+			"name": "GETNSS",
+			"url": "https://vaigai.org/nss.html",
+			"time": 405,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				405
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d404a5e0-f5c6-47cc-bc68-ac91137fce0a",
+			"name": "GETDepartment",
+			"url": "https://vaigai.org/all-depts.html",
+			"time": 400,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				400
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8f18749a-b224-4ecc-8c6a-b822c3be37f5",
+			"name": "GETContact",
+			"url": "https://vaigai.org/contact-us.html",
+			"time": 400,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				400
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "28250133-aa44-4ae4-ab53-60de082fdf78",
+			"name": "GETLibrary",
+			"url": "https://vaigai.org/library.html",
+			"time": 399,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				399
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8a7dc507-50bb-4315-9e76-823d2546dcdd",
+			"name": "GETAdmission",
+			"url": "https://vaigai.org/admission.html",
+			"time": 399,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				399
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "afcea494-f25f-4062-bc69-3d8889849b8d",
+			"name": "GETPlacements",
+			"url": "https://vaigai.org/placements.html",
+			"time": 402,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				402
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4484,
+	"collection": {
+		"requests": [
+			{
+				"id": "b5768bb2-2a2c-4868-b348-bec5f07ea841",
+				"method": "GET"
+			},
+			{
+				"id": "74a89b60-6b59-4272-885e-40124e9e6969",
+				"method": "GET"
+			},
+			{
+				"id": "8725a6fa-bb68-422a-bf68-1c02f71c7452",
+				"method": "GET"
+			},
+			{
+				"id": "7ed08c50-fc07-490a-9c97-1505094d7a59",
+				"method": "GET"
+			},
+			{
+				"id": "d404a5e0-f5c6-47cc-bc68-ac91137fce0a",
+				"method": "GET"
+			},
+			{
+				"id": "8f18749a-b224-4ecc-8c6a-b822c3be37f5",
+				"method": "GET"
+			},
+			{
+				"id": "28250133-aa44-4ae4-ab53-60de082fdf78",
+				"method": "GET"
+			},
+			{
+				"id": "8a7dc507-50bb-4315-9e76-823d2546dcdd",
+				"method": "GET"
+			},
+			{
+				"id": "afcea494-f25f-4062-bc69-3d8889849b8d",
+				"method": "GET"
+			}
+		]
+	}
+}

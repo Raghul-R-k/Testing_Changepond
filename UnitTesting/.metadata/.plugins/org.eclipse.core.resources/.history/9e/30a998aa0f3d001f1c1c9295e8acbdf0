@@ -1,0 +1,20 @@
+package Local;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class AmazonCreateAnAccountPageTest {
+
+	@Test
+	void testYourName() {
+		AmazonCreateAnAccountPage page = new AmazonCreateAnAccountPage();
+		String expectedFirstName = "Raghul";
+		String expectedLastName = "Kumar";
+		String actualResult = page.YourName(expectedFirstName,expectedLastName);
+		assertEquals(page.YourName(expectedFirstName,expectedLastName),actualResult);
+		assertSame(page.YourName(expectedFirstName,expectedLastName),actualResult,"Pleasse provide your Firstname and Lastname");
+
+ 	}
+
+}

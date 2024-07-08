@@ -1,0 +1,115 @@
+{
+	"id": "2cf4e7ed-4bbc-4a5c-8d74-474d1c5a4e9c",
+	"name": "CollectionMIT",
+	"timestamp": "2024-07-04T10:26:11.796Z",
+	"collection_id": "36735016-e69282b1-c9a3-4676-a86b-f3fb6486cdaf",
+	"folder_id": 0,
+	"environment_id": "36735016-0b65059c-b569-47b2-abb8-fa5e9773e53d",
+	"totalPass": 3,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-07-04T10:26:10.597Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "d73b9274-9bc7-4ea4-8976-b47da6b624f4",
+			"name": "LoginPage",
+			"url": "http://localhost:3000/LoginPage",
+			"time": 25,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				25
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "667f7e24-d455-4aed-a3dd-b78a398fdd76",
+			"name": "user",
+			"url": "http://localhost:8888/user",
+			"time": 45,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				45
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "41a5ddc0-f0e0-4f7d-9e82-c41b0462367c",
+			"name": "RegistrationPage",
+			"url": "http://localhost:3000/RegistrationPage",
+			"time": 15,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				15
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 85,
+	"collection": {
+		"requests": [
+			{
+				"id": "d73b9274-9bc7-4ea4-8976-b47da6b624f4",
+				"method": "GET"
+			},
+			{
+				"id": "667f7e24-d455-4aed-a3dd-b78a398fdd76",
+				"method": "POST"
+			},
+			{
+				"id": "41a5ddc0-f0e0-4f7d-9e82-c41b0462367c",
+				"method": "GET"
+			}
+		]
+	}
+}
